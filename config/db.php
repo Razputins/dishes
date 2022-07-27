@@ -2,9 +2,9 @@
 
 return [
     'class' => 'yii\db\Connection',
-    'dsn' => 'pgsql:host=localhost;dbname=default',
-    'username' => '',
-    'password' => '',
+    'dsn' => 'mysql:host=localhost;dbname=recipe',
+    'username' => 'manager',
+    'password' => 'Rognoro4ek{#}',
     'charset' => 'utf8',
 
     // Schema cache options (for production environment)
